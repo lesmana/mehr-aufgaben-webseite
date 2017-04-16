@@ -1,8 +1,8 @@
 'use strict';
 
 function nocheineaufgabe() {
-  var volumen_elem = document.getElementById("volumen");
-  volumen_elem.innerHTML = "??";
+  var loesung_elem = document.getElementById("loesung");
+  loesung_elem.style.visibility = "hidden";
   var radius = rand(1, 10);
   var hoehe = rand(1, 20);
   var radius_elem = document.getElementById("radius");
@@ -11,13 +11,13 @@ function nocheineaufgabe() {
   hoehe_elem.innerHTML = hoehe;
   var volumen = Math.PI * radius * radius * hoehe
   volumen = Math.round(volumen * 100) / 100
-  sessionStorage.setItem("volumen", volumen)
+  var volumen_elem = document.getElementById("volumen");
+  volumen_elem.innerHTML = volumen;
 }
 
 function zeigmirdieloesung() {
-  var volumen = sessionStorage.getItem("volumen");
-  var volumen_elem = document.getElementById("volumen");
-  volumen_elem.innerHTML = volumen;
+  var loesung_elem = document.getElementById("loesung");
+  loesung_elem.style.visibility = "visible";
 }
 
 function rand(min, max) {			
