@@ -10,6 +10,7 @@ function nocheineaufgabe() {
   radius_elem.innerHTML = radius;
   hoehe_elem.innerHTML = hoehe;
   var volumen = Math.PI * radius * radius * hoehe
+  volumen = Math.round(volumen * 100) / 100
   sessionStorage.setItem("volumen", volumen)
 }
 
