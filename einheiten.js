@@ -33,7 +33,7 @@ function nocheineaufgabe() {
   loesung_elem.style.visibility = "hidden";
   var voneinheit = ma.randomEinheit();
   var zueinheit = ma.randomEinheit()
-  var wert = rand(1, 100, 2);
+  var wert = rand(1, 100);
   var loesungwert = ma.wertVonNach(wert, voneinheit, zueinheit);
   var loesungeinheit = zueinheit;
   var voneinheit_elem = document.getElementById("voneinheit");
