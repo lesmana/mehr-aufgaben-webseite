@@ -1,16 +1,36 @@
 mehr aufgaben
 
-webseite die mit javascript aufgaben mit lösungen generiert.
+webseite die aufgaben mit lösungen generiert.
 die lösung wird erst nach ein klick angezeigt.
 
-die idee ist das man aufgaben generiert bekommt. die aufgaben rechnet.
+die idee ist dass man aufgaben generiert bekommt.
+die aufgaben auf papier rechnet.
 dann überprüft ob man richtig gerechnet hat.
 
-zuerst:
-* volumen berechnung von prismen und pyramiden
-* umrechnung von einheiten
+schwerpunkt der aufgaben:
 
-später:
-* alle anderen sorten von aufgaben
+* flächen und volumen berechnung (prismen und pyramiden)
+* einheiten umrechung (cm zu m)
 
-erst richtig funktionieren dann mehr dann schön
+dass ist etwa mathe klasse 8.
+
+prioritäten:
+
+* aufgaben reinbauen damit kind üben kann
+* refactor so dass mehr aufgaben reinbauen spaß macht
+* schön machen
+* noch mehr aufgaben
+
+was in zukunft reinkommen kann:
+
+* physik aufgaben
+* informatik aufgaben
+* übersetzung in andere sprachen
+
+was nicht reinkommen wird:
+
+* vokabeln oder andere auswendiglern aufgaben. vokabeln sind meist
+  ein ganz spezieller set von wörtern die auswendig gelernt werden wollen.
+  diese webseite soll beliebig viele zahlen zu einer festen formel generieren.
+* eingabe und auswertung der antwort. zu kompliziert. zu fehleranfällig.
+  kind soll auf papier rechnen. wie in der schule.
