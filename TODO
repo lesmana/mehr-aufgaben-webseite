@@ -4,8 +4,8 @@ todo
 add license AGPLv3
 
 ----
-create work in progress theme
-and create build script which removes work in progress theme
+create build script which builds test or production version
+when in test mode: pink background and generate easy numbers
 
 ----
 add my name on footer
