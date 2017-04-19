@@ -3,9 +3,9 @@
 function nocheineaufgabe() {
   var loesung_elem = document.getElementById("loesung");
   loesung_elem.style.visibility = "hidden";
-  var laenge = rand(1, 10);
-  var breite = rand(1, 10);
-  var hoehe = rand(1, 20);
+  var laenge = rand(5, 20);
+  var breite = rand(5, 20);
+  var hoehe = rand(10, 50);
   var laenge_elem = document.getElementById("laenge");
   var breite_elem = document.getElementById("breite");
   var hoehe_elem = document.getElementById("hoehe");

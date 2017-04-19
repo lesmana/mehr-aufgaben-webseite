@@ -3,7 +3,7 @@
 function nocheineaufgabe() {
   var loesung_elem = document.getElementById("loesung");
   loesung_elem.style.visibility = "hidden";
-  var laenge = rand(1, 10);
+  var laenge = rand(10, 30);
   var hoehe = rand(1, 20);
   var laenge_elem = document.getElementById("laenge");
   var hoehe_elem = document.getElementById("hoehe");

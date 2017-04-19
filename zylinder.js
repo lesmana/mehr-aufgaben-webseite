@@ -3,8 +3,8 @@
 function nocheineaufgabe() {
   var loesung_elem = document.getElementById("loesung");
   loesung_elem.style.visibility = "hidden";
-  var radius = rand(1, 10);
-  var hoehe = rand(1, 20);
+  var radius = rand(1, 30);
+  var hoehe = rand(10, 50);
   var radius_elem = document.getElementById("radius");
   var hoehe_elem = document.getElementById("hoehe");
   radius_elem.innerHTML = radius;
