@@ -1,9 +1,6 @@
 todo
 
 ----
-add license AGPLv3
-
-----
 create build script which builds test or production version
 when in test mode: pink background and generate easy numbers
 
