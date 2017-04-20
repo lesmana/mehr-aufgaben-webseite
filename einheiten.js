@@ -1,3 +1,8 @@
+// mehr aufgaben webseite
+// Copyright 2017 Lesmana Zimmer
+// Licensed under GNU AGPL version 3 or later
+// https://www.gnu.org/licenses/agpl.html
+
 'use strict';
 
 var ma = ma || {};
