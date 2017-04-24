@@ -1,10 +1,6 @@
 todo
 
 ----
-create build script which builds test or production version
-when in test mode: pink background and generate easy numbers
-
-----
 add my name on footer
 and version
 how? last git commit? combined with date?
@@ -17,3 +13,6 @@ create about page
 
 ----
 add graphical representation of geometrical objects
+
+----
+when in test mode generate easy numbers
