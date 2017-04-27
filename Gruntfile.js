@@ -25,10 +25,17 @@ module.exports = function(grunt) {
         src: ['build'],
       },
     },
+    watch: {
+      all: {
+        files: ['src/**'],
+        tasks: ['build'],
+      },
+    },
   });
 
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
   grunt.registerTask('default', ['build']);
   grunt.registerTask('build', ['copy:local']);
